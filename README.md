@@ -2,8 +2,7 @@
 ETL-Project
 
 Project Team Members:
-Nima
-Kirstie 
+Nima and Kirstie 
 
 ## Project Proposal
 
