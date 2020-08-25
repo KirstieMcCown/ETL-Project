@@ -10,26 +10,26 @@ To analyse two datasets to determine if there is any correlation between Oil Pip
 
 ## ETL 
 
-Extract: \n\n
+Extract: 
 
 Our original data sources were sourced from Kaggle, one was .csv format and the other .xlsx
 
-https://www.kaggle.com/usdot/pipeline-accidents \n
-https://www.kaggle.com/rockbottom73/crude-oil-prices \n
+https://www.kaggle.com/usdot/pipeline-accidents 
+https://www.kaggle.com/rockbottom73/crude-oil-prices 
 
-Transform: \n\n
+Transform: 
 
-Cleaning required:\n
-Remove any unnecessary columns\n
-Drop all accidents not related to crude oil\n
-Drop everything which is N/A\n
-Split accident date/time column in accidents df\n
-Change the format of the accident date to match the oil price date\n
+Cleaning required:
+Remove any unnecessary columns
+Drop all accidents not related to crude oil
+Drop everything which is N/A
+Split accident date/time column in accidents df
+Change the format of the accident date to match the oil price date
 
 
-Load: \n\n
+Load: 
 
-SQLLite DB - Using PGAdmin\n
+SQLLite DB - Using PGAdmin
 Tables: Prices Table and Accidents Table
 Tables can be joined on the date column(s)
 
